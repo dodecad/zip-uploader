@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZipUploader.Common\ZipUploader.Common.csproj" />
+    <ProjectReference Include="..\ZipUploader.Contracts\ZipUploader.Contracts.csproj" />
+    <ProjectReference Include="..\ZipUploader.Data\ZipUploader.Data.csproj" />
+  </ItemGroup>
+</Project>
